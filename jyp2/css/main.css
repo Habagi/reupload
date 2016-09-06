@@ -1,0 +1,247 @@
+
+.container {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+.main {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/bg-pc.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#mainlogo {
+    width: 380px;
+    height: 380px;
+    background: url(../img/mainlogo.png) center;
+    background-repeat: no-repeat;
+    margin: 15% auto;
+    padding: 0;
+    text-indent: -9999px;
+    z-index: -22;
+    opacity: 1;
+    transition:  1s ;
+
+}
+#mainlogo:hover {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    opacity: 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 57px;
+     /*background-color: #f4f4f4; */
+    z-index: 1;
+}
+.jyplogo a {
+    position: relative;
+    display: block;
+    width: 115px;
+    height: 45px;
+    background-image: url(../img/jyplogo.png);
+    text-indent: -9999px;
+    top: 5px;
+    left: 7%;
+    float: left;
+    z-index: 1;
+}
+.snsicon {
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    top: 15px;
+    right: 3%;
+    float: right;
+}
+a.sb.no-border, .sb.no-border a {
+    border: none;
+}
+a.sb.twitter, .sb a.twitter {
+    background-image: url(../img/twitter_bird.png);
+}
+a.sb, .sb a {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -900em;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    background-color: #e4e4e4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.sb {
+    margin: 0;
+    padding: 0;
+}
+a.sb.facebook, .sb a.facebook {
+    background-image: url(../img/facebook.png);
+}
+a.sb.youtube, .sb a.youtube {
+    background-image: url(../img/youtube.png);
+}
+
+
+
+@media only screen and (max-width: 769px){
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.main {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#bg{
+    background-image: url(../img/bg-720.jpg);
+    background-position: center;
+}
+
+#mainlogo {
+    width: 350px;
+    height: 350px;
+    background: url(../img/mainlogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 55% auto;
+    padding: 0;
+    text-indent: -9999px;
+    z-index: -22;
+    opacity: 1;
+    transition: 1s ;
+    -o-transition:  1s;
+    -ms-transition:  1s ;
+    -webkit-transition:  1s;
+    -moz-transition:  1s ;
+}
+
+footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 57px;
+    background-image: url(../img/footerbg.png);
+
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 481px){
+.main {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    /* height: 100%; */
+    display: block;
+}
+#bg {
+    background-image: url(../img/bg-720.jpg);
+}
+
+}
+@media only screen and (max-width: 479px){
+
+#mainlogo {
+    width: 300px;
+    height: 300px;
+    background: url(img/mainlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    margin: 34% auto 0;
+    padding: 0;
+    text-indent: -9999px;
+    z-index: -22;
+    opacity: 1;
+    transition: all 1s ease;
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 37px;
+    background-image: url(../img/footerbg.png);
+    z-index: 1;
+}
+.jyplogo a {
+    background-image: url(../img/jyplogo.png);
+    background-repeat: no-repeat;
+    background-position: 10% 5%;
+    background-size: 60%;
+    text-indent: -9999px;
+    left: 7%;
+    float: left;
+    z-index: 1;
+}
+.snsicon {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    top: 7px;
+    right: 7%;
+    float: right;
+}
+a.sb, .sb a {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    margin: 0 7px 0 0;
+    background-color: #e4e4e4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+}

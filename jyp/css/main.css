@@ -1,0 +1,212 @@
+<style type="text/css">
+
+.container {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+.main {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.menu > li > a {
+    color: #e6fff1;
+}
+#bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/bg-pc1.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 57px;
+     /*background-color: #f4f4f4; */
+     background-image: url(../img/footerbg.png);
+    z-index: 1;
+
+}
+.jyplogo a {
+    position: relative;
+    display: block;
+    width: 115px;
+    height: 45px;
+    background-image: url(../img/jyplogo.png);
+    text-indent: -9999px;
+    top: 5px;
+    left: 7%;
+    float: left;
+    z-index: 1;
+}
+.snsicon {
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    top: 15px;
+    right: 3%;
+    float: right;
+}
+a.sb.no-border, .sb.no-border a {
+    border: none;
+}
+a.sb.twitter, .sb a.twitter {
+    background-image: url(../img/twitter_bird.png);
+}
+a.sb, .sb a {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -900em;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    background-color: #e4e4e4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.sb {
+    margin: 0;
+    padding: 0;
+}
+a.sb.facebook, .sb a.facebook {
+    background-image: url(../img/facebook.png);
+}
+a.sb.youtube, .sb a.youtube {
+    background-image: url(../img/youtube.png);
+}
+
+
+
+@media only screen and (max-width: 769px){
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.main {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#bg{
+    background-image: url(../img/bg-7201.jpg);
+    background-position: bottom center;
+}
+
+
+footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 57px;
+    background-image: url(../img/footerbg.png);
+
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 481px){
+.main {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    /* height: 100%; */
+    display: block;
+}
+#bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/bg-7201.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+}
+@media only screen and (max-width: 479px){
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 37px;
+    background-image: url(../img/footerbg.png);
+    z-index: 1;
+}
+.jyplogo a {
+    background-image: url(../img/jyplogo.png);
+    background-repeat: no-repeat;
+    background-position: 10% 5%;
+    background-size: 60%;
+    text-indent: -9999px;
+    left: 7%;
+    float: left;
+    z-index: 1;
+}
+.snsicon {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    top: 7px;
+    right: 7%;
+    float: right;
+}
+a.sb, .sb a {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    margin: 0 7px 0 0;
+    background-color: #e4e4e4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+}
+</style>
